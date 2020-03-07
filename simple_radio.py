@@ -76,6 +76,8 @@ for s in stlist:
 # tune initial station as tuned by dial
 player.set_media(stations[get_tune(stlist)])
 # ready to rock and roll!!
+#Play the media
+player.play()
 while (1):
     st = get_tune(stlist)
     #st = 'kcrw'
