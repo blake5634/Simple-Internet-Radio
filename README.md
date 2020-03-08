@@ -16,4 +16,4 @@ This code works on the following hardware configuration:
 
 # Dependencies
 
-`Python3, vlc, [SMB library](https://pypi.org/project/smbus-cffi/0.5.1/)`
+`Python3, vlc', [SMB library](https://pypi.org/project/smbus-cffi/0.5.1/)
