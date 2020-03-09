@@ -4,7 +4,8 @@ A minimal internet radio with analog input controls for volume and tuning.  The 
 of an old analog radio to internet.   The tuning dial's range is mapped into N zones, each zone selects 
 a hard-coded radio station.  `vlc` is used in audio only mode to stream the station content.
 
-# Reference Hardware
+# Reference Hardware: a [Tivoli Audio Model One](https://www.radiomuseum.org/r/tivoli_pal_henry_kloss.html) Conversion  
+[Photo Gallery]
 
 This code works on the following hardware configuration:
 
@@ -12,8 +13,17 @@ This code works on the following hardware configuration:
   *  AD1115 Analog input chip (two channels for reading the potentiometers)
   *  Adafruit  [Audio bonnet](https://www.adafruit.com/product/4037?gclid=CjwKCAiAuqHwBRAQEiwAD-zr3aGi_nHOGs2Ol6eyVBbdYg7v8lCJhvojwowAsHldXNX0K86h9EPlBxoCx0QQAvD_BwE)
 
+
+Wiring Diagram
 ![Schematic Diagram showing reference hardware.](https://github.com/blake5634/Simple-Internet-Radio/blob/master/Graphics/SchematicSimpleIntRadio.png)
 
-# Dependencies
+# Pi Audio Basics
+   * A simple test: `cvlc --no-video http://kcrw.streamguys1.com/kcrw_192k_mp3_on_air`
 
-`Python3, vlc', [SMB library](https://pypi.org/project/smbus-cffi/0.5.1/)
+Above should play a stream from KCRW if vlc is installed and configured right. 
+
+
+# Dependencies for this software
+`Python3`, [vlc](https://www.videolan.org/vlc/), 
+[SMB library](https://pypi.org/project/smbus-cffi/0.5.1/)
+[Python-vlc package](https://stackoverflow.com/questions/46758360/how-to-play-streaming-audio-from-internet-radio-on-python-3-5-3)
