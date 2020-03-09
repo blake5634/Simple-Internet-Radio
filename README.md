@@ -5,7 +5,7 @@ of an old analog radio to internet.   The tuning dial's range is mapped into N z
 a hard-coded radio station.  `vlc` is used in audio only mode to stream the station content.
 
 # Reference Hardware: a [Tivoli Audio Model One](https://www.radiomuseum.org/r/tivoli_pal_henry_kloss.html) Conversion  
-[Photo Gallery](https://github.com/blake5634/Simple-Internet-Radio/blob/master/PhotoGallery.ms)
+[Photo Gallery](https://github.com/blake5634/Simple-Internet-Radio/blob/master/PhotoGallery.md)
 
 This code works on the following hardware configuration:
 
