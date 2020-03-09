@@ -5,13 +5,15 @@ of an old analog radio to internet.   The tuning dial's range is mapped into N z
 a hard-coded radio station.  `vlc` is used in audio only mode to stream the station content.
 
 # Reference Hardware: a [Tivoli Audio Model One](https://www.radiomuseum.org/r/tivoli_pal_henry_kloss.html) Conversion  
-[Photo Gallery]
+[Photo Gallery](https://github.com/blake5634/Simple-Internet-Radio/blob/master/PhotoGallery.ms)
 
 This code works on the following hardware configuration:
 
   *  Raspberry Pi Zero
   *  AD1115 Analog input chip (two channels for reading the potentiometers)
   *  Adafruit  [Audio bonnet](https://www.adafruit.com/product/4037?gclid=CjwKCAiAuqHwBRAQEiwAD-zr3aGi_nHOGs2Ol6eyVBbdYg7v8lCJhvojwowAsHldXNX0K86h9EPlBxoCx0QQAvD_BwE)
+  * Custom 3D printed mount plate to adapt potentiometer to original tuning knob. (see 
+  `POT\ Mount\ for\ Tivoli\ Model\ One.stl`)
 
 
 Wiring Diagram
