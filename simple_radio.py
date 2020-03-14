@@ -92,7 +92,7 @@ while (1):
     if vol != pvol:
        player.audio_set_volume(vol)
        pvol = vol
-    t.sleep(1)
+    t.sleep(0.1)
 
 player.stop()            
 player.audio_set_volume(100)
