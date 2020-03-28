@@ -11,7 +11,7 @@ def get_pot_val(chan):
     rv = ad.get_Ain(bus, chan)
     return  rv
 
-Nreads = 500 
+Nreads = 40 
 nloop = int(Nreads/4)
 
 print(' Starting time test NOW with {} reads'.format(Nreads))    
