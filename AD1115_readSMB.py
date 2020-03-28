@@ -28,7 +28,8 @@ def get_Ain(bus,chan):
     #				Continuous conversion mode, 128SPS
     data = [chan,0x83]
     bus.write_i2c_block_data(0x48, 0x01, data)
-    time.sleep(0.5)
+    #time.sleep(0.5)
+    time.sleep(0.010)  # should work at 128SPS
 
     # ADS1115 address, 0x48(72)
     # Read data back from 0x00(00), 2 bytes
