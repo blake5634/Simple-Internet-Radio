@@ -24,6 +24,10 @@ Wiring Diagram
 
 Above should play a stream from KCRW if vlc is installed and configured right. 
 
+# Runtime Notes
+ * When you power up, it takes a minute or two for the rPi to boot.  This is a *feature* - it gives a nice old-time vacuume tube feel to the experience.
+ * Not as nice is the lag in response to volume change.   That is an explicit tradeoff of how frequently you want the rPi to be wasting cycles 
+ checking the analog inputs for changes. 
 
 # Dependencies for this software
 `Python3`, [vlc](https://www.videolan.org/vlc/), 
