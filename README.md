@@ -1,5 +1,7 @@
 # Simple Internet Radio
 
+[22-Sept-22: We're on Hackaday!](https://hackaday.com/2022/09/22/simple-internet-radio-transplant/)
+
 A minimal internet radio with analog input controls for volume and tuning.  The use case is conversion 
 of an old analog radio to internet.   The tuning dial's range is mapped into N zones, each zone selects 
 a hard-coded radio station.  `vlc` is used in audio only mode to stream the station content.
